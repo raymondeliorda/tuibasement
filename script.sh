@@ -7,6 +7,7 @@ sudo apt install ufw -y
 
 ufw enable
 ufw default deny incoming
+ufw allow OpenSSH
 
 apt remove  -y
 
