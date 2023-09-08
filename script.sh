@@ -3,7 +3,8 @@
 apt update
 apt upgrade -y
 
-sudo apt install ufw -y
+apt install clamav clamav-daemon -y
+apt install ufw -y
 
 ufw enable
 ufw default deny incoming
